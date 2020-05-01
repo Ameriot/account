@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Androidapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cell_normal.xml",
+        "source": "G:\\Androidapp\\app\\src\\main\\res\\layout\\cell_normal.xml"
+    },
+    {
+        "merged": "G:\\Androidapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\record_item.xml",
+        "source": "G:\\Androidapp\\app\\src\\main\\res\\layout\\record_item.xml"
+    },
+    {
+        "merged": "G:\\Androidapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_record.xml",
+        "source": "G:\\Androidapp\\app\\src\\main\\res\\layout\\fragment_record.xml"
+    }
+]

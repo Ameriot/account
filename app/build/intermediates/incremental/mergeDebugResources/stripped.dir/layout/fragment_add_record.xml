@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </DatePicker>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/user_name"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:drawablePadding="8dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_key"
+        android:drawablePadding="8dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/email"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:drawablePadding="8dp"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+
+        <ImageView
+            android:id="@+id/cancel_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/cancel"
+            android:layout_alignParentBottom="true"/>
+
+</LinearLayout>
+
